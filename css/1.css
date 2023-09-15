@@ -1,0 +1,33 @@
+/* Reduce the spacing between text */
+.center-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the image container */
+.image-container {
+    margin-top: 10px; /* Reduce the top margin to adjust spacing */
+}
+
+/* Style the buttons */
+.button-container {
+    margin-top: 10px; /* Reduce the top margin to adjust spacing */
+}
+
+.button-container a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    margin: 5px 0; /* Reduce vertical margin to adjust spacing */
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-container a:hover {
+    background-color: #333;
+    color: #fff;
+}
